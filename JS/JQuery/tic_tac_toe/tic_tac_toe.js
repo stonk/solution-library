@@ -146,7 +146,7 @@ function checkAndProcessWin(){
 		$("#"+players[current_player].score_el).text(players[current_player].wins);
 		$(".end_game").show();
 	} else {
-		// Save the trouble and just restart the game since it a dead end
+		// Save the trouble and just restart the game since it's a dead end
 		if ( $("#game_map .marked").length == num_of_rows * num_of_cols ) $("#ask_restart").show();
 	}
 	return win;
